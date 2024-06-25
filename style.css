@@ -781,6 +781,13 @@ img {
         left: 30px;
     }
 }
+
+@media (max-width: 540px) {
+    .hero-area .owl-prev,
+    .hero-area .owl-next {
+        display: none !important;
+    }
+}
 .hero-area .owl-prev:hover,
 .hero-area .owl-next:hover {
     background-color: #000000;
@@ -1309,7 +1316,6 @@ img {
 }
 .footer-area .copywrite-text {
     width: 100%;
-    height: 60px;
     background-color: #111113;
     padding: 0 15px;
 }
